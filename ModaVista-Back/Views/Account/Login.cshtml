@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/account/account.css">
+}
+@section Scripts{
+    <script src="~/assets/js/account.js"></script>
+}
+
+<main>
+
+    <section id="mini-nav">
+        <div class="container">
+            <div class="contents">
+                <a href="home.html">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    Home
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <span>Login</span>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="register-form">
+                        <h2>Login</h2>
+                        <form>
+                            <div class="input">
+                                <label for="username-email">Username or email address *</label>
+                                <input type="text" id="username-email">
+                            </div>
+                            <div class="input">
+                                <label for="pass">Password *</label>
+                                <input type="password" id="username">
+                            </div>
+                            <button type="submit">LOGIN</button>
+                        </form>
+                        <div class="or-switch">
+                            <a href="">OR REGISTER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

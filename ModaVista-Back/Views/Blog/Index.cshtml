@@ -1,0 +1,228 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/blog/blog.css">
+}
+@section Scripts{
+    <script src="~/assets/js/blog.js"></script>
+}
+
+<main>
+
+    <section id="mini-nav">
+        <div class="container">
+            <div class="contents">
+                <a asp-controller="Home" asp-action="Index">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    Home
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <span>Blog</span>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="blogs" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1">
+                    <div class="left">
+                        <div class="search">
+                            <h4>Search</h4>
+                            <form>
+                                <input type="text" placeholder="Search...">
+                                <button>
+                                    <i class="fa-regular fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="categories">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a href="">Fashion</a></li>
+                                <li><a href="">Travel</a></li>
+                                <li><a href="">Picnic</a></li>
+                                <li><a href="">Model</a></li>
+                            </ul>
+                        </div>
+                        <div class="recents">
+                            <h4>Recent Posts</h4>
+
+                            <div class="posts">
+                                <div class="post">
+                                    <div class="left-side">
+                                        <a href="">
+                                            <img src="~/assets/img/blog/recent-1.jpg.webp" alt="recent-1">
+                                        </a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="">The Personality Trait That Makes...</a>
+                                        <div class="down">
+                                            <span class="category">FASHION</span>
+                                            <span class="date">- May 19, 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="left-side">
+                                        <a href="">
+                                            <img src="~/assets/img/blog/recent-2.jpg.webp" alt="recent-1">
+                                        </a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="">The Personality Trait That Makes...</a>
+                                        <div class="down">
+                                            <span class="category">FASHION</span>
+                                            <span class="date">- May 19, 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="left-side">
+                                        <a href="">
+                                            <img src="~/assets/img/blog/recent-3.jpg.webp" alt="recent-1">
+                                        </a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="">The Personality Trait That Makes...</a>
+                                        <div class="down">
+                                            <span class="category">FASHION</span>
+                                            <span class="date">- May 19, 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="left-side">
+                                        <a href="">
+                                            <img src="~/assets/img/blog/recent-4.jpg.webp" alt="recent-1">
+                                        </a>
+                                    </div>
+                                    <div class="right-side">
+                                        <a href="">The Personality Trait That Makes...</a>
+                                        <div class="down">
+                                            <span class="category">FASHION</span>
+                                            <span class="date">- May 19, 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 order-1 order-lg-2">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-1.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-2.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-3.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-4.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-5.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-5">
+                            <div class="blog">
+                                <div class="picture">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/blog-6.jpg.webp" alt="blog-1">
+                                    </a>
+                                </div>
+                                <div class="text mt-3">
+                                    <a href="">The Personality Trait That Makes People Happier</a>
+                                    <div class="down">
+                                        <span class="category">TRAVEL</span>
+                                        <span class="date">- May 19, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="load-more">
+                                <button>
+                                    <i class="fa-regular fa-loader"></i>
+                                    <span>Load More</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

@@ -1,0 +1,436 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Home";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/home/home.css">
+}
+@section Scripts{
+    <script src="~/assets/js/home.js"></script>
+}
+
+<main>
+
+    <section id="slider">
+        <div class="slider-box">
+            <i class="fa-light fa-chevron-left"></i>
+            <div class="owl-carousel" id="first-slider">
+                @foreach (var item in Model.Sliders)
+                {
+                    <div class="item" style="background-image: url(assets/img/home/@item.Image);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="text">
+                                        <span class="animate__animated animate__fadeInUp">@item.SubHeading</span>
+                                        <h1 class="animate__animated animate__fadeInUp">@item.Heading</h1>
+                                        <p class="animate__animated animate__fadeInUp">@item.Text</p>
+                                        <a href="" class="animate__animated animate__fadeInUp">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <div class="col-7 position-relative">
+                                    <div class="sale animate__animated animate__rotateIn">
+                                        <h2>SALE</h2>
+                                        <p>50%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <i class="fa-light fa-chevron-right"></i>
+        </div>
+    </section>
+
+    <section id="banner" class="my-5">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model.ProductCategories)
+                {
+                    <div class="col-lg-4">
+                        <div class="single-banner my-2"
+                             style="background-image: url(assets/img/home/@item.Image);">
+                            <div class="text">
+                                <p>@item.Name</p>
+                            </div>
+                            <div class="outline"></div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section id="women-banner" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="banner-image">
+                        <h1>Women's</h1>
+                        <a href="">Discover More</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="head">
+                        @for (int i = 1; i <= Model.Tags.Count; i++)
+                        {
+                            if(i == 1)
+                            {
+                                <p data-id="@i" class="active">@Model.Tags[i-1].Name</p>
+                            }
+                            else
+                            {
+                                <p data-id="@i" class="de-active">@Model.Tags[i-1].Name</p>
+                            }
+                        }
+                    </div>
+                    <div class="datas mt-3">
+                        <i class="fa-light fa-chevron-left"></i>
+                        @for (int i = 1; i <= Model.Tags.Count; i++)
+                        {
+                            if (i == 1)
+                            {
+                                <div id="women-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
+                                    @foreach (var item in Model.WomenProducts)
+                                    {
+                                        if (item.TagId == Model.Tags[i - 1].Id)
+                                        {
+                                            <div data-id="@item.Id" class="product-card">
+                                                <div class="image">
+                                                    <img src="~/assets//img/home/products/@item.Image" alt="@item.Image">
+                                                    <i class="fa-light fa-heart"></i>
+                                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                    <div class="bottom">
+                                                        <i class="fa-light fa-basket-shopping"></i>
+                                                        <div class="view">
+                                                            <a href="">
+                                                                <span>View Item</span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="category-name">@Model.Tags[i-1].Name</p>
+                                                    <a href="">@item.Name</a>
+                                                    <p class="price">$@item.Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <div id="women-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
+                                    @foreach (var item in Model.WomenProducts)
+                                    {
+                                        if (item.TagId == Model.Tags[i - 1].Id)
+                                        {
+                                            <div data-id="@item.Id" class="product-card">
+                                                <div class="image">
+                                                    <img src="~/assets//img/home/products/@item.Image" alt="@item.Image">
+                                                    <i class="fa-light fa-heart"></i>
+                                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                    <div class="bottom">
+                                                        <i class="fa-light fa-basket-shopping"></i>
+                                                        <div class="view">
+                                                            <a href="">
+                                                                <span>View Item</span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="category-name">@Model.Tags[i-1].Name</p>
+                                                    <a href="">@item.Name</a>
+                                                    <p class="price">$@item.Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                        }               
+                        <i class="fa-light fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deal-of-week">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left">
+                        <div class="text">
+                            <h2>Deal Of The Week</h2>
+                            <hr>
+                            <p class="desc">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Non laborum eligendi iusto
+                                quo aut id.
+                            </p>
+                            <p class="price">
+                                <span class="left">$35.00</span>
+                                <span class="right">/ HanBag</span>
+                            </p>
+                        </div>
+                        <div class="time">
+                            <div class="day">
+                                <span></span>
+                                <p>DAYS</p>
+                            </div>
+                            <div class="hour">
+                                <span></span>
+                                <p>HOURS</p>
+                            </div>
+                            <div class="min">
+                                <span></span>
+                                <p>MINS</p>
+                            </div>
+                            <div class="sec">
+                                <span></span>
+                                <p>SECS</p>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="men-banner" class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="head">
+                        @for (int i = 1; i <= Model.Tags.Count; i++)
+                        {
+                            if (i == 1)
+                            {
+                                <p data-id="@i" class="active">@Model.Tags[i-1].Name</p>
+                            }
+                            else
+                            {
+                                <p data-id="@i" class="de-active">@Model.Tags[i-1].Name</p>
+                            }
+                        }
+                    </div>
+                    <div class="datas mt-3">
+                        <i class="fa-light fa-chevron-left"></i>
+                        @for (int i = 1; i <= Model.Tags.Count; i++)
+                        {
+                            if (i == 1)
+                            {
+                                <div id="men-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
+                                    @foreach (var item in Model.MenProducts)
+                                    {
+                                        if (item.TagId == Model.Tags[i - 1].Id)
+                                        {
+                                            <div data-id="@item.Id" class="product-card">
+                                                <div class="image">
+                                                    <img src="~/assets//img/home/products/@item.Image" alt="@item.Image">
+                                                    <i class="fa-light fa-heart"></i>
+                                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                    <div class="bottom">
+                                                        <i class="fa-light fa-basket-shopping"></i>
+                                                        <div class="view">
+                                                            <a href="">
+                                                                <span>View Item</span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="category-name">@Model.Tags[i-1].Name</p>
+                                                    <a href="">@item.Name</a>
+                                                    <p class="price">$@item.Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <div id="men-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
+                                    @foreach (var item in Model.MenProducts)
+                                    {
+                                        if (item.TagId == Model.Tags[i - 1].Id)
+                                        {
+                                            <div data-id="@item.Id" class="product-card">
+                                                <div class="image">
+                                                    <img src="~/assets//img/home/products/@item.Image" alt="@item.Image">
+                                                    <i class="fa-light fa-heart"></i>
+                                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                    <div class="bottom">
+                                                        <i class="fa-light fa-basket-shopping"></i>
+                                                        <div class="view">
+                                                            <a href="">
+                                                                <span>View Item</span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="category-name">@Model.Tags[i-1].Name</p>
+                                                    <a href="">@item.Name</a>
+                                                    <p class="price">$@item.Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                        }
+                        <i class="fa-light fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="banner-image">
+                        <h1>Men's</h1>
+                        <a href="">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram">
+        <div class="photos">
+            <div class="photo" style="background-image: url(assets/img/home/insta-1.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+            <div class="photo" style="background-image: url(assets/img/home/insta-2.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+            <div class="photo" style="background-image: url(assets/img/home/insta-3.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+            <div class="photo" style="background-image: url(assets/img/home/insta-4.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+            <div class="photo" style="background-image: url(assets/img/home/insta-5.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+            <div class="photo" style="background-image: url(assets/img/home/insta-6.jpg.webp);">
+                <div class="hover-text">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>rhasan0v__</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="head">
+            <div class="container">
+                <h2>From The Blog</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="blogs my-5">
+            <div class="container">
+                <div class="row">
+                    @foreach (var item in Model.Blogs)
+                    {
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-card">
+                                <div class="image">
+                                    <a href="">
+                                        <img src="~/assets/img/blog/@item.Image" alt="">
+                                    </a>
+                                </div>
+                                <div class="infos">
+                                    <div class="up">
+                                        <div class="left">
+                                            <i class="fa-light fa-calendar"></i>
+                                            <span>@item.CreateDate.ToString("MMMM d, yyyy")</span>
+                                        </div>
+                                    </div>
+                                    <div class="down">
+                                        <a href="">@item.Heading</a>
+                                        <p>@item.Text</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="my-5">
+        <div class="container">
+            <div class="row">
+                @for (int i = 1; i <= Model.Reasons.Count; i++)
+                {
+                    string className = "";
+
+                    if(i == 1)
+                    {
+                        className = "pr";
+                    }
+                    else if(i == 2)
+                    {
+                        className = "px";
+                    }
+                    else
+                    {
+                        className = "pl";
+                    }
+
+                    <div class="col-lg-4 @className-0">
+                        <div class="single-benefit">
+                            <i class="@Model.Reasons[i-1].IconClass"></i>
+                            <div class="text">
+                                <p>@Model.Reasons[i-1].Heading</p>
+                                <span>@Model.Reasons[i-1].Text</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+</main>

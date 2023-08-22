@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/cart/cart.css">
+}
+@section Scripts{
+    <script src="~/assets/js/cart.js"></script>
+}
+
+<main>
+
+    <section id="mini-nav">
+        <div class="container">
+            <div class="contents">
+                <a asp-controller="Home" asp-action="Index">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    Home
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <a asp-controller="Shop" asp-action="Index">
+                    Shop
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <span>Shopping Cart</span>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="basket">
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="img"><span>Image</span></th>
+                        <th class="name"><span>Name</span></th>
+                        <th class="price"><span>Price</span></th>
+                        <th class="quantity"><span>Quantity</span></th>
+                        <th class="total-price"><span>Total</span></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-id="1">
+                        <td class="img-box">
+                            <img src="~/assets/img/home/products/man-1.jpg.webp" alt="">
+                        </td>
+                        <td><span class="item-name">Item 1</span></td>
+                        <td><span class="item-price">$23.00</span></td>
+                        <td>
+                            <div class="quantity-box">
+                                <span class="minus">-</span>
+                                <input min="1" type="number" value="1" disabled>
+                                <span class="plus">+</span>
+                            </div>
+                        </td>
+                        <td><span class="item-price total-price">$23.00</span></td>
+                        <td>
+                            <i class="fa-light fa-x"></i>
+                        </td>
+                    </tr>
+                    <tr data-id="2">
+                        <td class="img-box">
+                            <img src="~/assets/img/home/products/man-2.jpg.webp" alt="">
+                        </td>
+                        <td><span class="item-name">Item 2</span></td>
+                        <td><span class="item-price">$20.00</span></td>
+                        <td>
+                            <div class="quantity-box">
+                                <span class="minus">-</span>
+                                <input min="1" type="number" value="2" disabled>
+                                <span class="plus">+</span>
+                            </div>
+                        </td>
+                        <td><span class="item-price total-price">$40.00</span></td>
+                        <td>
+                            <i class="fa-light fa-x"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="basket-total">
+                <div class="up">
+                    <span class="first">TOTAL</span>
+                    <span class="last">$63.00</span>
+                </div>
+                <div class="down">
+                    <p>PROCEED TO CHECKOUT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

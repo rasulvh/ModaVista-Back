@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ModaVista_Back
+build_property.RootNamespace = ModaVista_Back
+build_property.ProjectDir = D:\Masadakılar Rasul\Code Academy\Final Project - ModaVista\ModaVista-Back\ModaVista-Back\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Masadakılar Rasul\Code Academy\Final Project - ModaVista\ModaVista-Back\ModaVista-Back
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Faq/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Wishlist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaGxpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eb4bkz2n9a
