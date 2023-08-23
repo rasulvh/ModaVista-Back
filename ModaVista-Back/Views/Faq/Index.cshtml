@@ -1,4 +1,5 @@
-﻿
+﻿@model FaqVM
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -29,60 +30,23 @@
     <section id="faqs">
         <div class="container">
             <!-- In backend classes like faq-1, faq-2 will be dynamically generated -->
-            <div class="faq faq-1">
-                <div class="head" data-id="1">
-                    <div class="icons">
-                        <i class="fa-regular fa-minus"></i>
-                        <i class="fa-regular fa-plus d-none"></i>
+            @for (int i = 1; i <= Model.Faqs.Count; i++)
+            {
+                <div class="faq faq-@i">
+                    <div class="head" data-id="@i">
+                        <div class="icons">
+                            <i class="fa-regular fa-minus"></i>
+                            <i class="fa-regular fa-plus d-none"></i>
+                        </div>
+                        <div class="text">
+                            <p>@Model.Faqs[i-1].Heading</p>
+                        </div>
                     </div>
-                    <div class="text">
-                        <p>Is There Anything I Should Bring?</p>
-                    </div>
-                </div>
-                <div class="body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-            </div>
-            <div class="faq faq-2" data-id="2">
-                <div class="head" data-id="2">
-                    <div class="icons">
-                        <i class="fa-regular fa-minus"></i>
-                        <i class="fa-regular fa-plus d-none"></i>
-                    </div>
-                    <div class="text">
-                        <p>Where Can I Find Market Research Reports?</p>
+                    <div class="body">
+                        <p>@Model.Faqs[i-1].Text</p>
                     </div>
                 </div>
-                <div class="body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-            </div>
-            <div class="faq faq-3" data-id="3">
-                <div class="head" data-id="3">
-                    <div class="icons">
-                        <i class="fa-regular fa-minus"></i>
-                        <i class="fa-regular fa-plus d-none"></i>
-                    </div>
-                    <div class="text">
-                        <p>Where Can I Find The Wall Street Journal?</p>
-                    </div>
-                </div>
-                <div class="body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                </div>
-            </div>
+            }
         </div>
     </section>
 

@@ -48,6 +48,7 @@ builder.Services.AddScoped<IReasonService, ReasonService>();
 builder.Services.AddScoped<IFirmService, FirmService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
 builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
+builder.Services.AddScoped<IFaqService, FaqService>();
 
 var app = builder.Build();
 
