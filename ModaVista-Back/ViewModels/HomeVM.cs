@@ -11,5 +11,6 @@ namespace ModaVista_Back.ViewModels
         public List<Tag> Tags { get; set; }
         public List<Blog> Blogs { get; set; }
         public List<Reason> Reasons { get; set; }
+        public List<Firm> Firms { get; set; }
     }
 }

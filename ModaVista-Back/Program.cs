@@ -38,12 +38,16 @@ builder.Services.AddSession(option =>
     option.IdleTimeout = TimeSpan.FromMinutes(15);
 });
 
+builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ITagService, TagService>();
 builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddScoped<IReasonService, ReasonService>();
+builder.Services.AddScoped<IFirmService, FirmService>();
+builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<IBlogCategoryService, BlogCategoryService>();
 
 var app = builder.Build();
 

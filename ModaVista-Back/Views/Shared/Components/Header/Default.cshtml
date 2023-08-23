@@ -1,0 +1,194 @@
+﻿@model LayoutVM
+
+<header>
+
+    <section id="head-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 d-flex justify-content-between position-relative">
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>@Model.SettingDatas["Email"]</p>
+                    </div>
+                    <div class="vertical-line" style="position: absolute;right: 0;"></div>
+                </div>
+                <div class="col-6 d-flex justify-content-between position-relative">
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>@Model.SettingDatas["Phone"]</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="vertical-line" style="position: absolute;right: 0;"></div>
+                </div>
+                <div class="col-1 d-flex justify-content-between position-relative">
+                    <div class="language">
+                        <img src="~/assets/img/home/header-flag.webp" alt="flag">
+                        <span>English</span>
+                    </div>
+                    <div class="vertical-line" style="position: absolute;right: 0;"></div>
+                </div>
+                <div class="col-2">
+                    <div class="login">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a>
+                                <i class="fa-solid fa-user"></i>
+                                <p>@Model.UserFullname</p>
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login">
+                                <i class="fa-solid fa-user"></i>
+                                <p>Login</p>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="head-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-12">
+                    <div class="nav-logo">
+                        <a asp-controller="Home" asp-action="Index">
+                            <img src="~/assets/img/logo-transparent-nav.png" alt="nav-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12">
+                    <div class="search">
+                        <form>
+                            <input type="text" placeholder="What do you need?">
+                            <button><i class="fa-light fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="icons">
+                        <div class="wishlist">
+                            <a asp-controller="Wishlist" asp-action="Index">
+                                <i class="fa-light fa-heart"></i>
+                                <span>0</span>
+                            </a>
+                        </div>
+                        <div class="basket">
+                            <a asp-controller="Cart" asp-action="Index">
+                                <i class="fa-light fa-basket-shopping"></i>
+                                <span>0</span>
+                            </a>
+                            <span class="price">$0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="navbar">
+        <div class="container d-flex">
+            <div class="nav-categories">
+                <i class="fa-regular fa-bars"></i>
+                <span class="all">FOR EVERYONE</span>
+                <i class="fa-regular fa-chevron-down"></i>
+
+                <ul class="category-hover">
+                    <li><a href="">Men's Clothing</a></li>
+                    <li><a href="">Women's Clothing</a></li>
+                    <li><a href="">Kid's Clothing</a></li>
+                </ul>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-controller="Shop" asp-action="Index">Shop</a>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-controller="Blog" asp-action="Index">Blog</a>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-controller="Faq" asp-action="Index">Faq</a>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li>
+                        <a class="nav-link" asp-controller="Contact" asp-action="Index">Contact</a>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li class="nav-pages">
+                        <span>Pages</span>
+                        <div class="vertical-line"></div>
+                        <ul class="nav-link-hover">
+                            <li class="hover-list"><a asp-controller="Cart" asp-action="Index">Shopping Cart</a></li>
+                            <li class="hover-list"><a asp-controller="Account" asp-action="Register">Register</a></li>
+                            <li class="hover-list"><a asp-controller="Account" asp-action="Login">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="navbar-menu-wrap">
+        <div class="container">
+            <div class="menu">
+                <button class="menu-btn">MENU <i class="fa-regular fa-bars"></i></button>
+
+                <ul>
+                    <li>
+                        <a class="menu-link" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" asp-controller="Shop" asp-action="Index">Shop</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" asp-controller="Blog" asp-action="Index">Blog</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" asp-controller="Faq" asp-action="Index">Faq</a>
+                    </li>
+                    <li>
+                        <a class="menu-link" asp-controller="Contact" asp-action="Index">Contact</a>
+                    </li>
+                    <li class="menu-pages">
+                        <span>
+                            Pages
+                            <i class="fa-regular fa-chevron-right"></i>
+                        </span>
+                        <ul class="menu-link-hover">
+                            <li class="hover-list">
+                                <a class="hover-list-link" asp-controller="Cart" asp-action="Index">Shopping Cart</a>
+                            </li>
+                            <li class="hover-list"><a class="hover-list-link" asp-controller="Account" asp-action="Register">Register</a></li>
+                            <li class="hover-list"><a class="hover-list-link" asp-controller="Account" asp-action="Login">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</header>

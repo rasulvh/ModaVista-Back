@@ -1,0 +1,95 @@
+﻿@model LayoutVM
+
+<footer>
+
+    <section id="firm-logo" class="mt-5">
+        <div class="container">
+            <div id="firm-logo-carousel" class="owl-carousel owl-theme">
+                @foreach (var item in Model.Firms)
+                {
+                    <div class="item">
+                        <div class="logo">
+                            <img src="~/assets/img/home/logo-carousel/@item.Image" alt="">
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <section id="footer-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="logo">
+                            <a asp-controller="Home" asp-action="Index">
+                                <img src="~/assets/img/logo-transparent-nav.png" alt="">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>Address: @Model.SettingDatas["Address"]</li>
+                            <li>Phone: @Model.SettingDatas["Phone"]</li>
+                            <li>Email: @Model.SettingDatas["Email"]</li>
+                        </ul>
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a asp-controller="Shop" asp-action="Index">Shop</a></li>
+                            <li><a asp-controller="Blog" asp-action="Index">Blog</a></li>
+                            <li><a asp-controller="Contact" asp-action="Index">Contact</a></li>
+                            <li><a asp-controller="Faq" asp-action="Index">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>My Account</h5>
+                        <ul>
+                            <!-- <li><a href="">Account</a></li>
+                            <li><a href="">Shopping Cart</a></li> -->
+                            <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                            <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="join-us">
+                        <h5>Join Us Now</h5>
+                        <p>Get E-Mail's about latest updates and news</p>
+                        <form>
+                            <input type="email" placeholder="Enter Your E-Mail">
+                            <button>SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="footer-down">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>Copyright ©2023 All rights reserved</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="img">
+                        <img src="~/assets/img/payment-method.png.webp" alt="payment-images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</footer>

@@ -1,4 +1,4 @@
-﻿
+﻿@model ShopVM
 @{
     ViewData["Title"] = "Index";
 }
@@ -33,18 +33,19 @@
                     <div class="category">
                         <h4>Categories</h4>
                         <ul>
-                            <li><a href="">Men</a></li>
-                            <li><a href="">Women</a></li>
-                            <li><a href="">Kids</a></li>
+                            @foreach (var item in Model.Categories)
+                            {
+                                <li><a href="">@item.Name</a></li>
+                            }
                         </ul>
                     </div>
                     <div class="brand mt-5">
                         <h4>Brands</h4>
                         <ul>
-                            <li><input id="cb-1" type="checkbox"> <label for="cb-1">Calvin Klein</label></li>
-                            <li><input id="cb-2" type="checkbox"> <label for="cb-2">Diesel</label></li>
-                            <li><input id="cb-3" type="checkbox"> <label for="cb-3">Polo</label></li>
-                            <li><input id="cb-4" type="checkbox"> <label for="cb-4">Tommy Hilfiger</label></li>
+                            @for (int i = 1; i <= Model.Brands.Count; i++)
+                            {
+                                <li><input id="cb-@i" type="checkbox"> <label for="cb-@i">@Model.Brands[i-1].Name</label></li>
+                            }
                         </ul>
                     </div>
                     <div class="price-slider mt-5">
@@ -71,207 +72,40 @@
                     <div class="tags mt-5">
                         <h4>Tags</h4>
                         <div class="tags-item">
-                            <a href="">Towel</a>
-                            <a href="">Shoes</a>
-                            <a href="">Coat</a>
-                            <a href="">Dresses</a>
-                            <a href="">Trousers</a>
-                            <a href="">Backpack</a>
+                            @foreach (var item in Model.Tags)
+                            {
+                                <a href="">@item.Name</a>
+                            }
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-9 order-1 order-lg-2">
                     <div class="product-list">
                         <div class="row">
-                            <div data-id="1" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
+                            @for (int i = 1; i <= Model.Products.Count; i++)
+                            {
+                                <div data-id="@i" class="product-card col-lg-4 col-sm-6">
+                                    <div class="image">
+                                        <img src="~/assets/img/home/products/@Model.Products[i-1].Image" alt="women-1">
+                                        <i class="fa-light fa-heart"></i>
+                                        <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                        <div class="bottom">
+                                            <i class="fa-light fa-basket-shopping"></i>
+                                            <div class="view">
+                                                <a href="">
+                                                    <span>View Item</span>
+                                                    <i class="fa-regular fa-eye"></i>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="2" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-2.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
+                                    <div class="text">
+                                        <p class="category-name">@Model.Products[i-1].Tag.Name</p>
+                                        <a href="">@Model.Products[i-1].Name</a>
+                                        <p class="price">$@Model.Products[i-1].Price</p>
                                     </div>
                                 </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="3" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-3.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="4" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-4.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="5" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="6" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="7" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="8" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
-                            <div data-id="9" class="product-card col-lg-4 col-sm-6">
-                                <div class="image">
-                                    <img src="~/assets/img/home/products/man-1.jpg.webp" alt="women-1">
-                                    <i class="fa-light fa-heart"></i>
-                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                    <div class="bottom">
-                                        <i class="fa-light fa-basket-shopping"></i>
-                                        <div class="view">
-                                            <a href="">
-                                                <span>View Item</span>
-                                                <i class="fa-regular fa-eye"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="category-name">COAT</p>
-                                    <a href="">Item 1</a>
-                                    <p class="price">$13.00</p>
-                                </div>
-                            </div>
+                            }
                         </div>
                     </div>
                     <div class="load-more">

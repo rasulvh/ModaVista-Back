@@ -13,13 +13,15 @@ namespace ModaVista_Back.Controllers
         private readonly ITagService _tagService;
         private readonly IBlogService _blogService;
         private readonly IReasonService _reasonService;
+        private readonly IFirmService _firmService;
 
         public HomeController(ISliderService sliderService,
                               IProductCategoryService productCategoryService,
                               IProductService productService,
                               ITagService tagService,
                               IBlogService blogService,
-                              IReasonService reasonService)
+                              IReasonService reasonService,
+                              IFirmService firmService)
         {
             _sliderService = sliderService;
             _productCategoryService = productCategoryService;
@@ -27,6 +29,7 @@ namespace ModaVista_Back.Controllers
             _tagService = tagService;
             _blogService = blogService;
             _reasonService = reasonService;
+            _firmService = firmService;
 
         }
 
@@ -39,6 +42,7 @@ namespace ModaVista_Back.Controllers
             var tags = await _tagService.GetAllAsync();
             var blogs = await _blogService.GetAllAsync();
             var reasons = await _reasonService.GetAllAsync();
+            var firms = await _firmService.GetAllAsync();
 
             HomeVM model = new()
             {
@@ -48,7 +52,8 @@ namespace ModaVista_Back.Controllers
                 WomenProducts = womenProducts,
                 Tags = tags.Take(4).ToList(),
                 Blogs = blogs.OrderByDescending(m => m.Id).Take(3).ToList(),
-                Reasons = reasons.OrderByDescending(m => m.Id).Take(3).ToList()
+                Reasons = reasons.OrderByDescending(m => m.Id).Take(3).ToList(),
+                Firms = firms
             };
 
             return View(model);
