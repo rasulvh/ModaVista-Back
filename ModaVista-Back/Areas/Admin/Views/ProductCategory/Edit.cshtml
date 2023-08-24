@@ -1,0 +1,23 @@
+﻿@model ProductCategoryEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h1 class="my-5 text-center">Edit Product Category</h1>
+    <div class="image">
+        <img src="~/assets/img/home/@Model.OldImage" style="width:400px;height250px" />
+    </div>
+    <form method="post" enctype="multipart/form-data" asp-action="Edit">
+        <div class="form-group mt-3">
+            <input asp-for=Name class="form-control" placeholder="Name" />
+        </div>
+        <div class="form-group mt-3">
+            <lable>New Image</lable>
+            <input asp-for=NewImage class="form-control" />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jGhSiOc2I3B14oMRAWu7sDt66iUbTWf/ngrFnpeRIk0=",
+  "Hash": "21jqBG/bw7J6NBAI8RYiGnTIYehlzusMRI8AVjbYBdw=",
   "Source": "ModaVista-Back",
   "BasePath": "_content/ModaVista-Back",
   "Mode": "Default",
@@ -2125,12 +2125,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\home\\banner-2.jpg.webp"
     },
     {
-      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\banner-3.jpg.webp",
+      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\d52fe071-e4f2-4275-9ae6-2a5bd89d4b44_banner-3.jpg.webp",
       "SourceId": "ModaVista-Back",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\",
       "BasePath": "_content/ModaVista-Back",
-      "RelativePath": "assets/img/home/banner-3.jpg.webp",
+      "RelativePath": "assets/img/home/d52fe071-e4f2-4275-9ae6-2a5bd89d4b44_banner-3.jpg.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2139,7 +2139,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\home\\banner-3.jpg.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\home\\d52fe071-e4f2-4275-9ae6-2a5bd89d4b44_banner-3.jpg.webp"
     },
     {
       "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\deal-of-week-bg.webp",
