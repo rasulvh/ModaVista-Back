@@ -1,0 +1,32 @@
+﻿@model BlogEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h1 class="my-5 text-center">Edit Product Category</h1>
+
+    <div class="image">
+        <img src="~/assets/img/blog/@Model.OldImage" style="width:400px;height250px" />
+    </div>
+    <form method="post" enctype="multipart/form-data" asp-action="Edit">
+        <div class="form-group mt-3">
+            <input asp-for=Heading class="form-control" placeholder="Heading" />
+        </div>
+        <div class="form-group mt-3">
+            <input asp-for=Text class="form-control" placeholder="Text" />
+        </div>
+        <div class="form-group mt-3">
+            <select id="categoryId" asp-for="BlogCategoryId" asp-items="ViewBag.blogCategories" class="animated-input form-control">
+                <option disabled selected>Select Blog Category</option>
+            </select>
+        </div>
+        <div class="form-group mt-3">
+            <lable>New Image</lable>
+            <input asp-for=NewImage class="form-control" />
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
