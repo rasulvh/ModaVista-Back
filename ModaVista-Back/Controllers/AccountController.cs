@@ -14,16 +14,19 @@ namespace ModaVista_Back.Controllers
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailService _emailService;
+        private readonly IAccountService _accountService;
 
         public AccountController(UserManager<AppUser> userManager,
                                  SignInManager<AppUser> signInManager,
                                  RoleManager<IdentityRole> roleManager,
-                                 IEmailService emailService)
+                                 IEmailService emailService,
+                                 IAccountService accountService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _emailService = emailService;
+            _accountService = accountService;
         }
 
         [HttpGet]
@@ -113,7 +116,16 @@ namespace ModaVista_Back.Controllers
 
             string link = Url.Action(nameof(ConfirmEmail), "Account", new { userId = user.Id, token }, Request.Scheme);
 
-            string html = $"<h1>Please confirm your email <a href={link}>Click here</a></h1>";
+            string html = string.Empty;
+
+            using (StreamReader reader = new("wwwroot/templates/account.html"))
+            {
+                html = reader.ReadToEnd();
+            }
+
+            html = html.Replace("{{link}}", link);
+
+            html = html.Replace("{{fullName}}", user.Fullname);
 
             string subject = "Email Confirmation";
 
@@ -179,6 +191,76 @@ namespace ModaVista_Back.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVM request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            AppUser user = await _accountService.GetUserByUsernameOrEmail(request.Email);
+
+            if (user is null)
+            {
+                ModelState.AddModelError("Email", "User with this email does not exist");
+                return View();
+            }
+
+            string token = await _accountService.GeneratePasswordResetTokenAsync(user);
+
+            string link = Url.Action(nameof(ResetPassword), "Account", new { userId = user.Id, token }, Request.Scheme);
+
+            string subject = "Reset password";
+
+            _accountService.SendConfirmationEmail(user, request.Email, subject, link);
+
+            return RedirectToAction(nameof(VerifyEmail));
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userId, string token)
+        {
+            ResetPasswordVM model = new()
+            {
+                UserId = userId,
+                Token = token
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVM request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(request);
+            }
+
+            AppUser user = await _accountService.GetUserById(request.UserId);
+
+            if (user is null) return NotFound();
+
+            if (await _accountService.CheckPasswordAsync(user, request.Password))
+            {
+                ModelState.AddModelError("RepeatPassword", "You cannot use your current password");
+                return View(request);
+            }
+
+            await _accountService.ResetPasswordAsync(user, request.Token, request.Password);
+
+            return RedirectToAction(nameof(Login));
         }
     }
 }

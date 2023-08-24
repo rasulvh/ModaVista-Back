@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BSGs9PZiI+s8y7dZiMi7/LnYKZhyDRU4eg0CFvrBJzc=",
+  "Hash": "/milnLTpTQ7Pqw4Sc5yNcZ/x9SrT5xD8oSperlHJymg=",
   "Source": "ModaVista-Back",
   "BasePath": "_content/ModaVista-Back",
   "Mode": "Default",
@@ -7597,6 +7597,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\scss\\wishlist\\wishlist.scss"
+    },
+    {
+      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\templates\\account.html",
+      "SourceId": "ModaVista-Back",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\",
+      "BasePath": "_content/ModaVista-Back",
+      "RelativePath": "templates/account.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\account.html"
     }
   ]
 }

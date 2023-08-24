@@ -15,5 +15,7 @@ namespace ModaVista_Back.Services.Interfaces
         Task CreateAsync(ProductCreateVM request);
         Task DeleteAsync(int id);
         Task EditAsync(int id, ProductEditVM request);
+        Task<int> GetCountAsync();
+        Task<List<Product>> GetPaginatedDatasAsync(int page, int take);
     }
 }

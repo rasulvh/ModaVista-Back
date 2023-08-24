@@ -127,5 +127,24 @@ namespace ModaVista_Back.Services
         {
             return await _context.Products.Where(m => m.Id == id).Include(m => m.Brand).Include(m => m.ProductCategory).Include(m => m.Tag).FirstOrDefaultAsync();
         }
+
+        public async Task<int> GetCountAsync()
+        {
+            var products = await _context.Products.ToListAsync();
+
+            return products.Count();
+        }
+
+        public async Task<List<Product>> GetPaginatedDatasAsync(int page, int take)
+        {
+            return await _context.Products
+                    .Where(m => !m.SoftDelete)
+                    .Include(m => m.Brand)
+                    .Include(m => m.Tag)
+                    .Include(m => m.ProductCategory)
+                    .Skip((page - 1) * take)
+                    .Take(take)
+                    .ToListAsync();
+        }
     }
 }
