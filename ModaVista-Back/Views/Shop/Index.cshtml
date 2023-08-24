@@ -82,51 +82,86 @@
                 <div class="col-lg-9 order-1 order-lg-2">
                     <div class="product-list">
                         <div class="row">
-                            @for (int i = 1; i <= Model.Products.Count; i++)
+                            @if(Model.SearchedProducts == null)
                             {
-                                <div data-id="@i" class="product-card col-lg-4 col-sm-6">
-                                    <div class="image">
-                                        <img src="~/assets/img/home/products/@Model.Products[i-1].Image" alt="women-1">
-                                        <i class="fa-light fa-heart"></i>
-                                        <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                        <div class="bottom">
-                                            <i class="fa-light fa-basket-shopping"></i>
-                                            <div class="view">
-                                                <a href="">
-                                                    <span>View Item</span>
-                                                    <i class="fa-regular fa-eye"></i>
-                                                </a>
+                                @for (int i = 1; i <= Model.Paginate.Datas.Count; i++)
+                                {
+                                    <div data-id="@i" class="product-card col-lg-4 col-sm-6">
+                                        <div class="image">
+                                            <img src="~/assets/img/home/products/@Model.Paginate.Datas[i-1].Image" alt="women-1">
+                                            <i class="fa-light fa-heart"></i>
+                                            <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                            <div class="bottom">
+                                                <i class="fa-light fa-basket-shopping"></i>
+                                                <div class="view">
+                                                    <a href="">
+                                                        <span>View Item</span>
+                                                        <i class="fa-regular fa-eye"></i>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div class="text">
+                                            <p class="category-name">@Model.Paginate.Datas[i-1].Tag.Name</p>
+                                            <a href="">@Model.Paginate.Datas[i-1].Name</a>
+                                            <p class="price">$@Model.Paginate.Datas[i-1].Price</p>
+                                        </div>
                                     </div>
-                                    <div class="text">
-                                        <p class="category-name">@Model.Products[i-1].Tag.Name</p>
-                                        <a href="">@Model.Products[i-1].Name</a>
-                                        <p class="price">$@Model.Products[i-1].Price</p>
-                                    </div>
-                                </div>
+                                }
+                            }
+                            else
+                            {
+                                if(Model.SearchedProducts.Count != 0)
+                                {
+                                    @for (int i = 1; i <= Model.SearchedProducts.Count; i++)
+                                    {
+                                        <div data-id="@i" class="product-card col-lg-4 col-sm-6">
+                                            <div class="image">
+                                                <img src="~/assets/img/home/products/@Model.SearchedProducts[i-1].Image" alt="women-1">
+                                                <i class="fa-light fa-heart"></i>
+                                                <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                <div class="bottom">
+                                                    <i class="fa-light fa-basket-shopping"></i>
+                                                    <div class="view">
+                                                        <a href="">
+                                                            <span>View Item</span>
+                                                            <i class="fa-regular fa-eye"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <p class="category-name">@Model.SearchedProducts[i-1].Tag.Name</p>
+                                                <a href="">@Model.SearchedProducts[i-1].Name</a>
+                                                <p class="price">$@Model.SearchedProducts[i-1].Price</p>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div role="alert" class="alert-danger alert">No Products Found</div>
+                                }
                             }
                         </div>
                     </div>
-                    <nav aria-label="...">
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">1</a>
-                            </li>
-                            <li class="page-item active">
-                                <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">3</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    @if(Model.SearchedProducts == null)
+                    {
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item @(Model.Paginate.HasPrevious ? "" : "disabled")">
+                                    <a class="page-link" asp-route-page="@(Model.Paginate.CurrentPage-1)" tabindex="-1">Previous</a>
+                                </li>
+                                @for (int i = 1; i <= Model.Paginate.TotalPage; i++)
+                                {
+                                    <li class="page-item @(Model.Paginate.CurrentPage == i ? "disabled active-pagination" : "")"><a class="page-link" asp-route-page="@i">@i</a></li>
+                                }
+                                <li class="page-item @(Model.Paginate.HasNext ? "" : "disabled")">
+                                    <a class="page-link" asp-route-page="@(Model.Paginate.CurrentPage+1)">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    }
                 </div>
             </div>
         </div>

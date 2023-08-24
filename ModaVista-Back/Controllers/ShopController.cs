@@ -30,6 +30,21 @@ namespace ModaVista_Back.Controllers
 
         public async Task<IActionResult> Index(int page = 1, string searchText = null)
         {
+            var settingDatas = _settingService.GetAll();
+
+            int take = int.Parse(settingDatas["ShopPaginateTakeCount"]);
+
+            var paginatedDatas = await _productService.GetPaginatedDatasAsync(page, take);
+
+            var pageCount = await GetCountAsync(take);
+
+            if (page > pageCount)
+            {
+                return NotFound();
+            }
+
+            Paginate<Product> result = new(paginatedDatas, page, pageCount);
+
             var products = await _productService.GetAllWithIncludesAsync();
             var categories = await _productCategoryService.GetAllAsync();
             var brands = await _brandService.GetAllAsync();
@@ -39,28 +54,27 @@ namespace ModaVista_Back.Controllers
             {
                 Brands = brands,
                 Categories = categories,
-                Products = products.OrderByDescending(m => m.Id).Take(9).ToList(),
                 Tags = tags,
+                Paginate = result,
             };
 
-            if (searchText == null)
+            if (searchText != null)
             {
-                return View(model);
-            }
+                List<Product> searchProducts = new();
 
-            List<Product> searchProducts = new();
-
-            foreach (var item in products)
-            {
-                if (item.Name.ToLower().Trim().Contains(searchText.ToLower().Trim()))
+                foreach (var item in products)
                 {
-                    searchProducts.Add(item);
+                    if (item.Name.ToLower().Trim().Contains(searchText.ToLower().Trim()))
+                    {
+                        searchProducts.Add(item);
+                    }
                 }
-            }
 
-            model.Products = searchProducts;
+                model.SearchedProducts = searchProducts;
+            }
 
             return View(model);
+
         }
 
         private async Task<int> GetCountAsync(int take)

@@ -2400,6 +2400,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\man-large.jpg.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\products\6d7bb9ee-b277-4a00-b9b2-321cd87a9ccd_man-3.jpg.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>ModaVista-Back</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ModaVista-Back</BasePath>
+      <RelativePath>assets/img/home/products/6d7bb9ee-b277-4a00-b9b2-321cd87a9ccd_man-3.jpg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\products\6d7bb9ee-b277-4a00-b9b2-321cd87a9ccd_man-3.jpg.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\products\8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ModaVista-Back</SourceId>
