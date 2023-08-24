@@ -114,9 +114,10 @@
                 <i class="fa-regular fa-chevron-down"></i>
 
                 <ul class="category-hover">
-                    <li><a href="">Men's Clothing</a></li>
-                    <li><a href="">Women's Clothing</a></li>
-                    <li><a href="">Kid's Clothing</a></li>
+                    @foreach (var item in Model.ProductCategories)
+                    {
+                        <li><a asp-controller="Shop" asp-action="Index" asp-route-productCategoryId="@item.Id">@item.Name</a></li>
+                    }
                 </ul>
             </div>
             <div class="nav-links">

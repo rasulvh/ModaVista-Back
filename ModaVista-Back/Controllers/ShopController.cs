@@ -28,7 +28,7 @@ namespace ModaVista_Back.Controllers
             _settingService = settingService;
         }
 
-        public async Task<IActionResult> Index(int page = 1, string searchText = null)
+        public async Task<IActionResult> Index(int page = 1, string searchText = null, int? productCategoryId = null)
         {
             var settingDatas = _settingService.GetAll();
 
@@ -71,6 +71,21 @@ namespace ModaVista_Back.Controllers
                 }
 
                 model.SearchedProducts = searchProducts;
+            }
+
+            if (productCategoryId != null)
+            {
+                List<Product> categorizedProducts = new();
+
+                foreach (var item in products)
+                {
+                    if (item.ProductCategoryId == productCategoryId)
+                    {
+                        categorizedProducts.Add(item);
+                    }
+                }
+
+                model.CategorizedProducts = categorizedProducts;
             }
 
             return View(model);

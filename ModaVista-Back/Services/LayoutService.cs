@@ -13,16 +13,19 @@ namespace ModaVista_Back.Services
         private readonly IHttpContextAccessor _accessor;
         private readonly UserManager<AppUser> _userManager;
         private readonly IFirmService _firmService;
+        private readonly IProductCategoryService _productCategoryService;
 
         public LayoutService(AppDbContext context,
                             IHttpContextAccessor accessor,
                             UserManager<AppUser> userManager,
-                            IFirmService firmService)
+                            IFirmService firmService,
+                            IProductCategoryService productCategoryService)
         {
             _context = context;
             _accessor = accessor;
             _userManager = userManager;
             _firmService = firmService;
+            _productCategoryService = productCategoryService;
         }
 
         public async Task<LayoutVM> GetAllDatas()
@@ -31,8 +34,15 @@ namespace ModaVista_Back.Services
             var user = await _userManager.FindByIdAsync(userId);
             var datas = _context.Settings.AsEnumerable().ToDictionary(m => m.Key, m => m.Value);
             var firms = await _firmService.GetAllAsync();
+            var productCategory = await _productCategoryService.GetAllAsync();
 
-            return new LayoutVM { Firms = firms, SettingDatas = datas, UserFullname = user?.Fullname };
+            return new LayoutVM
+            {
+                Firms = firms,
+                SettingDatas = datas,
+                UserFullname = user?.Fullname,
+                ProductCategories = productCategory
+            };
         }
     }
 }

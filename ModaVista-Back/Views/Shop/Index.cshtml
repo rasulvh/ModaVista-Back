@@ -35,7 +35,7 @@
                         <ul>
                             @foreach (var item in Model.Categories)
                             {
-                                <li><a href="">@item.Name</a></li>
+                                <li><a asp-action="Index" asp-route-productCategoryId="@item.Id">@item.Name</a></li>
                             }
                         </ul>
                     </div>
@@ -84,29 +84,66 @@
                         <div class="row">
                             @if(Model.SearchedProducts == null)
                             {
-                                @for (int i = 1; i <= Model.Paginate.Datas.Count; i++)
+                                if(Model.CategorizedProducts == null)
                                 {
-                                    <div data-id="@i" class="product-card col-lg-4 col-sm-6">
-                                        <div class="image">
-                                            <img src="~/assets/img/home/products/@Model.Paginate.Datas[i-1].Image" alt="women-1">
-                                            <i class="fa-light fa-heart"></i>
-                                            <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
-                                            <div class="bottom">
-                                                <i class="fa-light fa-basket-shopping"></i>
-                                                <div class="view">
-                                                    <a href="">
-                                                        <span>View Item</span>
-                                                        <i class="fa-regular fa-eye"></i>
-                                                    </a>
+                                    @for (int i = 1; i <= Model.Paginate.Datas.Count; i++)
+                                    {
+                                        <div data-id="@i" class="product-card col-lg-4 col-sm-6">
+                                            <div class="image">
+                                                <img src="~/assets/img/home/products/@Model.Paginate.Datas[i-1].Image" alt="women-1">
+                                                <i class="fa-light fa-heart"></i>
+                                                <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                <div class="bottom">
+                                                    <i class="fa-light fa-basket-shopping"></i>
+                                                    <div class="view">
+                                                        <a href="">
+                                                            <span>View Item</span>
+                                                            <i class="fa-regular fa-eye"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <div class="text">
+                                                <p class="category-name">@Model.Paginate.Datas[i-1].Tag.Name</p>
+                                                <a href="">@Model.Paginate.Datas[i-1].Name</a>
+                                                <p class="price">$@Model.Paginate.Datas[i-1].Price</p>
+                                            </div>
                                         </div>
-                                        <div class="text">
-                                            <p class="category-name">@Model.Paginate.Datas[i-1].Tag.Name</p>
-                                            <a href="">@Model.Paginate.Datas[i-1].Name</a>
-                                            <p class="price">$@Model.Paginate.Datas[i-1].Price</p>
-                                        </div>
-                                    </div>
+                                    }
+                                }
+                                else
+                                {
+                                    if(Model.CategorizedProducts.Count != 0)
+                                    {
+                                        @for (int i = 1; i <= Model.CategorizedProducts.Count; i++)
+                                        {
+                                            <div data-id="@i" class="product-card col-lg-4 col-sm-6">
+                                                <div class="image">
+                                                    <img src="~/assets/img/home/products/@Model.CategorizedProducts[i-1].Image" alt="women-1">
+                                                    <i class="fa-light fa-heart"></i>
+                                                    <i class="fa-solid fa-heart d-none"></i><!-- Choosen heart in orange color -->
+                                                    <div class="bottom">
+                                                        <i class="fa-light fa-basket-shopping"></i>
+                                                        <div class="view">
+                                                            <a href="">
+                                                                <span>View Item</span>
+                                                                <i class="fa-regular fa-eye"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text">
+                                                    <p class="category-name">@Model.CategorizedProducts[i-1].Tag.Name</p>
+                                                    <a href="">@Model.CategorizedProducts[i-1].Name</a>
+                                                    <p class="price">$@Model.CategorizedProducts[i-1].Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div role="alert" class="alert-danger alert">No Products Found</div>
+                                    }
                                 }
                             }
                             else
@@ -145,7 +182,7 @@
                             }
                         </div>
                     </div>
-                    @if(Model.SearchedProducts == null)
+                    @if(Model.SearchedProducts == null && Model.CategorizedProducts == null)
                     {
                         <nav aria-label="...">
                             <ul class="pagination">
