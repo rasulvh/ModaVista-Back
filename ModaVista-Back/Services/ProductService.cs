@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ModaVista_Back.Data;
+using ModaVista_Back.Helpers;
 using ModaVista_Back.Models;
 using ModaVista_Back.Services.Interfaces;
+using ModaVista_Back.ViewModels.Admin.Blog;
+using ModaVista_Back.ViewModels.Admin.Product;
 
 namespace ModaVista_Back.Services
 {
@@ -14,6 +17,67 @@ namespace ModaVista_Back.Services
         {
             _context = context;
             _env = env;
+        }
+
+        public async Task CreateAsync(ProductCreateVM request)
+        {
+            string image = string.Empty;
+
+            string fileName = Guid.NewGuid().ToString() + "_" + request.Image.FileName;
+            await request.Image.SaveFileAsync(fileName, _env.WebRootPath, "assets/img/home/products");
+
+            image = fileName;
+
+            Product product = new()
+            {
+                BrandId = request.BrandId,
+                Description = request.Description,
+                Image = image,
+                Name = request.Name,
+                Price = request.Price,
+                ProductCategoryId = request.ProductCategoryId,
+                TagId = request.TagId
+            };
+
+            await _context.Products.AddAsync(product);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+
+            string path = Path.Combine(_env.WebRootPath, "assets/img/home/products", product.Image);
+
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+        }
+
+        public async Task EditAsync(int id, ProductEditVM request)
+        {
+            var product = await _context.Products.FindAsync(id);
+
+            if (request.NewImage != null)
+            {
+                string fileName = Guid.NewGuid().ToString() + "_" + request.NewImage.FileName;
+                product.Image = fileName;
+                await request.NewImage.SaveFileAsync(fileName, _env.WebRootPath, "assets/img/home/products");
+            }
+
+            product.ProductCategoryId = request.ProductCategoryId;
+            product.Price = request.Price;
+            product.BrandId = request.BrandId;
+            product.Description = request.Description;
+            product.Name = request.Name;
+            product.TagId = request.TagId;
+
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<List<Product>> GetAllAsync() => await _context.Products.Where(m => !m.SoftDelete).ToListAsync();
@@ -55,6 +119,13 @@ namespace ModaVista_Back.Services
             }
 
             return eligibleProducts;
+        }
+
+        public async Task<Product> GetByIdAsync(int id) => await _context.Products.FindAsync(id);
+
+        public async Task<Product> GetByIdWithIncludesAsync(int id)
+        {
+            return await _context.Products.Where(m => m.Id == id).Include(m => m.Brand).Include(m => m.ProductCategory).Include(m => m.Tag).FirstOrDefaultAsync();
         }
     }
 }

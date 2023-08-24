@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RuzeLBVEFw1Aa4yFlELtU8qViz4bCLwC4CVKKJsp0ws=",
+  "Hash": "BSGs9PZiI+s8y7dZiMi7/LnYKZhyDRU4eg0CFvrBJzc=",
   "Source": "ModaVista-Back",
   "BasePath": "_content/ModaVista-Back",
   "Mode": "Default",
@@ -2599,6 +2599,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\home\\man-large.jpg.webp"
+    },
+    {
+      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp",
+      "SourceId": "ModaVista-Back",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\",
+      "BasePath": "_content/ModaVista-Back",
+      "RelativePath": "assets/img/home/products/8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\home\\products\\8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp"
+    },
+    {
+      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\c31b57f7-73ac-4b99-8609-f92e4d23ea5f_women-4.jpg.webp",
+      "SourceId": "ModaVista-Back",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\",
+      "BasePath": "_content/ModaVista-Back",
+      "RelativePath": "assets/img/home/products/c31b57f7-73ac-4b99-8609-f92e4d23ea5f_women-4.jpg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\home\\products\\c31b57f7-73ac-4b99-8609-f92e4d23ea5f_women-4.jpg.webp"
     },
     {
       "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\man-1.jpg.webp",
