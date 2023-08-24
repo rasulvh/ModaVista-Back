@@ -1,0 +1,42 @@
+﻿@model List<ReasonIndexVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container my-4">
+    <h1 class="text-center mb-5">Reasons</h1>
+
+    <div class="container">
+        <a asp-action="Create" class="btn btn-success mb-3"><i class="fa-regular fa-plus"></i></a>
+
+        <div class="bg-light rounded h-100 p-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Text</th>
+                        <th scope="col">Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderByDescending(m => m.Id))
+                    {
+                        <tr>
+                            <td><span style="margin-top:62px;display:block;font-weight:600"><i style="font-size:25px" class="@item.IconClass"></i></span></td>
+                            <td><span style="margin-top:62px;display:block;font-weight:600">@item.Heading</span></td>
+                            <td><span style="margin-top:62px;display:block;font-weight:600">@item.Text</span></td>
+                            <td style="display: flex;flex-direction: column;justify-content: space-around;align-items: center;height: 166.8px;">
+                                <a class="btn btn-primary"><i class="fa-regular fa-circle-info"></i></a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
+                                <form method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                    <button type="submit" class="btn btn-danger"><i class="fa-regular fa-trash"></i></button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
