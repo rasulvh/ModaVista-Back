@@ -1,10 +1,10 @@
-﻿@model BlogCreateVM
+﻿@model SliderCreateVM
 @{
     ViewData["Title"] = "Create";
 }
 
 <div class="container">
-    <h1 class="my-5 text-center">Create Blog</h1>
+    <h1 class="my-5 text-center">Create Slider</h1>
 
     <form method="post" enctype="multipart/form-data" asp-action="Create">
         <div class="form-group mt-3">
@@ -15,12 +15,10 @@
             <input asp-for=Heading class="form-control" placeholder="Heading" />
         </div>
         <div class="form-group mt-3">
-            <input asp-for=Text class="form-control" placeholder="Text" />
+            <input asp-for=SubHeading class="form-control" placeholder="Sub Heading" />
         </div>
         <div class="form-group mt-3">
-            <select id="categoryId" asp-for="BlogCategoryId" asp-items="ViewBag.blogCategories" class="animated-input form-control">
-                <option disabled selected>Select Blog Category</option>
-            </select>
+            <input asp-for=Text class="form-control" placeholder="Text" />
         </div>
         <div asp-validation-summary="All" class="text-danger"></div>
         <a asp-action="Index" class="btn btn-primary">Back</a>
