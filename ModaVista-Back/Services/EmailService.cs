@@ -19,8 +19,8 @@ namespace ModaVista_Back.Services
 
             // send email
             using var smtp = new SmtpClient();
-            smtp.Connect("smpt.gmail.com", 587, SecureSocketOptions.StartTls);
-            smtp.Authenticate("rasulvh@code.edu.az", "ehmsirwxdxqzgcbe");
+            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
+            smtp.Authenticate("rasulvh@code.edu.az", "isxmeulkiwgdbejg");
             smtp.Send(email);
             smtp.Disconnect(true);
         }

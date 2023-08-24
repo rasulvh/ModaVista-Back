@@ -45,7 +45,7 @@
                     <div class="login">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <a style="width:125px" asp-controller="Account" asp-action="Profile">
+                            <a style="width:auto" asp-controller="Account" asp-action="Profile">
                                 <i class="fa-solid fa-user"></i>
                                 <p>@Model.UserFullname</p>
                             </a>

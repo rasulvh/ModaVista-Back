@@ -37,7 +37,6 @@ namespace ModaVista_Back.Controllers
                 Categories = categories,
                 Products = products.OrderByDescending(m => m.Id).Take(9).ToList(),
                 Tags = tags,
-                LoadMore = true
             };
 
             if (searchText == null)
@@ -56,7 +55,6 @@ namespace ModaVista_Back.Controllers
             }
 
             model.Products = searchProducts;
-            model.LoadMore = false;
 
             return View(model);
         }

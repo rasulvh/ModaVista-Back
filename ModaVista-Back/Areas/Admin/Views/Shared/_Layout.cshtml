@@ -71,15 +71,12 @@
         <div class="content">
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
-                </a>
                 <a href="#" class="sidebar-toggler flex-shrink-0">
                     <i class="fa fa-bars"></i>
                 </a>
                 <div class="navbar-nav align-items-center ms-auto" style="margin-top: 15px;margin-bottom: 15px;">
                     <div class="nav-item dropdown">
-                        <a href="#" class="dropdown-item">Log Out</a>
+                        <a asp-area="" asp-controller="Account" asp-action="Logout" class="dropdown-item">Log Out</a>
                     </div>
                 </div>
             </nav>
