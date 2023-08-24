@@ -45,7 +45,7 @@
                     <div class="login">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <a>
+                            <a style="width:125px" asp-controller="Account" asp-action="Profile">
                                 <i class="fa-solid fa-user"></i>
                                 <p>@Model.UserFullname</p>
                             </a>
@@ -76,10 +76,13 @@
                 </div>
                 <div class="col-lg-7 col-sm-12">
                     <div class="search">
-                        <form>
-                            <input type="text" placeholder="What do you need?">
-                            <button><i class="fa-light fa-magnifying-glass"></i></button>
-                        </form>
+                        @using (Html.BeginForm("Index", "Shop", FormMethod.Post))
+                        {
+                            <input type="text" name="searchText" placeholder="What do you need?">
+                            <button type="submit">
+                                <i class="fa-light fa-magnifying-glass"></i>
+                            </button>
+                        }
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-12">
@@ -143,8 +146,11 @@
                         <div class="vertical-line"></div>
                         <ul class="nav-link-hover">
                             <li class="hover-list"><a asp-controller="Cart" asp-action="Index">Shopping Cart</a></li>
-                            <li class="hover-list"><a asp-controller="Account" asp-action="Register">Register</a></li>
-                            <li class="hover-list"><a asp-controller="Account" asp-action="Login">Login</a></li>
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li class="hover-list"><a asp-controller="Account" asp-action="Register">Register</a></li>
+                                <li class="hover-list"><a asp-controller="Account" asp-action="Login">Login</a></li>
+                            }
                         </ul>
                     </li>
                 </ul>

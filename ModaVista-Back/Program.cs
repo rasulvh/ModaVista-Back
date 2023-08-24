@@ -38,6 +38,7 @@ builder.Services.AddSession(option =>
     option.IdleTimeout = TimeSpan.FromMinutes(15);
 });
 
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<ILayoutService, LayoutService>();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
@@ -71,10 +72,10 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
-//app.MapControllerRoute(
-//  name: "areas",
-//  pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
-//);
+app.MapControllerRoute(
+  name: "areas",
+  pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+);
 
 app.MapControllerRoute(
     name: "default",

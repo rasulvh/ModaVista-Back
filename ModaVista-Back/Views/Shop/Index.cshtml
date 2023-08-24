@@ -108,12 +108,15 @@
                             }
                         </div>
                     </div>
-                    <div class="load-more">
-                        <button>
-                            <i class="fa-light fa-loader"></i>
-                            Load More
-                        </button>
-                    </div>
+                    @if (Model.LoadMore)
+                    {
+                        <div class="load-more">
+                            <button>
+                                <i class="fa-light fa-loader"></i>
+                                Load More
+                            </button>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

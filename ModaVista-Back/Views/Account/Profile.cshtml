@@ -1,0 +1,43 @@
+﻿@model ProfileVM
+@{
+    ViewData["Title"] = "Profile";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/profile/profile.css">
+}
+@section Scripts{
+    <script src="~/assets/js/profile.js"></script>
+}
+
+
+<main>
+
+    <section id="card" class="my-5">
+        <div class="container">
+            <div class="card-items">
+                <div class="top">
+                    <span>Your Profile</span>
+                    <a asp-controller="Account" asp-action="Logout">Logout</a>
+                </div>
+                <hr>
+                <div class="bottom">
+                    <div class="left">
+                        <div class="fullname">
+                            <span>Full Name</span>
+                            <input type="text" disabled value="@Model.Fullname">
+                        </div>
+                        <div class="email">
+                            <span>Email</span>
+                            <input type="text" disabled value="@Model.Email">
+                        </div>
+                    </div>
+                    <div class="reset-password">
+                        <a href="">Reset Password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

@@ -1,0 +1,19 @@
+﻿@model FaqCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <h1 class="my-5 text-center">Create Faq</h1>
+
+    <form method="post" asp-action="Create">
+        <div class="form-group mt-3">
+            <input asp-for=Heading class="form-control" placeholder="Heading" />
+        </div>
+        <div class="form-group my-3">
+            <input asp-for=Text class="form-control" placeholder="Text" />
+        </div>
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+        <button type="submit" class="btn btn-success">Create</button>
+    </form>
+</div>

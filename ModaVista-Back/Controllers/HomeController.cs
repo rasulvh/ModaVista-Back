@@ -58,5 +58,6 @@ namespace ModaVista_Back.Controllers
 
             return View(model);
         }
+
     }
 }

@@ -24,7 +24,7 @@ namespace ModaVista_Back.Controllers
 
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchText = null)
         {
             var products = await _productService.GetAllWithIncludesAsync();
             var categories = await _productCategoryService.GetAllAsync();
@@ -36,8 +36,27 @@ namespace ModaVista_Back.Controllers
                 Brands = brands,
                 Categories = categories,
                 Products = products.OrderByDescending(m => m.Id).Take(9).ToList(),
-                Tags = tags
+                Tags = tags,
+                LoadMore = true
             };
+
+            if (searchText == null)
+            {
+                return View(model);
+            }
+
+            List<Product> searchProducts = new();
+
+            foreach (var item in products)
+            {
+                if (item.Name.ToLower().Trim().Contains(searchText.ToLower().Trim()))
+                {
+                    searchProducts.Add(item);
+                }
+            }
+
+            model.Products = searchProducts;
+            model.LoadMore = false;
 
             return View(model);
         }
