@@ -23,7 +23,7 @@ namespace ModaVista_Back.Services
                 Value = request.Value,
             };
 
-            _context.Settings.Add(setting);
+            await _context.Settings.AddAsync(setting);
             await _context.SaveChangesAsync();
         }
 

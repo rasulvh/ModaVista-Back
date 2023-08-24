@@ -56,6 +56,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmFxXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Areas/Admin/Views/Firm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmlybVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Areas/Admin/Views/Firm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmlybVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Areas/Admin/Views/Firm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmlybVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Masadakılar Rasul/Code Academy/Final Project - ModaVista/ModaVista-Back/ModaVista-Back/Areas/Admin/Views/Reason/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n568DaWN7JamvePrsTdtJTCJ3ZcVXipSKx6RVnfgbGM=",
+  "Hash": "jGhSiOc2I3B14oMRAWu7sDt66iUbTWf/ngrFnpeRIk0=",
   "Source": "ModaVista-Back",
   "BasePath": "_content/ModaVista-Back",
   "Mode": "Default",
@@ -2361,6 +2361,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\home\\latest-3.jpg.webp"
+    },
+    {
+      "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png",
+      "SourceId": "ModaVista-Back",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\",
+      "BasePath": "_content/ModaVista-Back",
+      "RelativePath": "assets/img/home/logo-carousel/459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\home\\logo-carousel\\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png"
     },
     {
       "Identity": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-1.png.webp",

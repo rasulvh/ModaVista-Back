@@ -2176,6 +2176,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\latest-3.jpg.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\logo-carousel\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ModaVista-Back</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ModaVista-Back</BasePath>
+      <RelativePath>assets/img/home/logo-carousel/459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\logo-carousel\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\home\logo-carousel\logo-1.png.webp))">
       <SourceType>Package</SourceType>
       <SourceId>ModaVista-Back</SourceId>
