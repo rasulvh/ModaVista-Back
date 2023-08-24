@@ -1,0 +1,20 @@
+﻿@model SettingEditVM
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h1 class="my-5 text-center">Edit Setting Data</h1>
+
+    <form method="post" enctype="multipart/form-data" asp-action="Edit">
+        <div class="form-group mt-3">
+            <input asp-for=Key class="form-control" placeholder="Key" />
+        </div>
+        <div class="form-group mt-3">
+            <input asp-for=Value class="form-control" placeholder="Value" />
+        </div>
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <a asp-action="Index" class="btn btn-primary">Back</a>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
