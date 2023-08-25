@@ -78,11 +78,11 @@
                         {
                             if(i == 1)
                             {
-                                <p data-id="@i" class="active">@Model.Tags[i-1].Name</p>
+                                <p data-id="@Model.Tags[i-1].Id" class="active">@Model.Tags[i-1].Name</p>
                             }
                             else
                             {
-                                <p data-id="@i" class="de-active">@Model.Tags[i-1].Name</p>
+                                <p data-id="@Model.Tags[i-1].Id" class="de-active">@Model.Tags[i-1].Name</p>
                             }
                         }
                     </div>
@@ -92,7 +92,7 @@
                         {
                             if (i == 1)
                             {
-                                <div id="women-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
+                                <div id="women-carousel-@i" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
                                     @foreach (var item in Model.WomenProducts)
                                     {
                                         if (item.TagId == Model.Tags[i - 1].Id)
@@ -124,7 +124,7 @@
                             }
                             else
                             {
-                                <div id="women-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
+                                <div id="women-carousel-@i" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
                                     @foreach (var item in Model.WomenProducts)
                                     {
                                         if (item.TagId == Model.Tags[i - 1].Id)
@@ -217,11 +217,11 @@
                         {
                             if (i == 1)
                             {
-                                <p data-id="@i" class="active">@Model.Tags[i-1].Name</p>
+                                <p data-id="@Model.Tags[i-1].Id" class="active">@Model.Tags[i-1].Name</p>
                             }
                             else
                             {
-                                <p data-id="@i" class="de-active">@Model.Tags[i-1].Name</p>
+                                <p data-id="@Model.Tags[i-1].Id" class="de-active">@Model.Tags[i-1].Name</p>
                             }
                         }
                     </div>
@@ -231,10 +231,10 @@
                         {
                             if (i == 1)
                             {
-                                <div id="men-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
+                                <div id="men-carousel-@i" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme">
                                     @foreach (var item in Model.MenProducts)
                                     {
-                                        if (item.TagId == Model.Tags[i - 1].Id)
+                                        if (item.TagId == Model.Tags[i-1].Id)
                                         {
                                             <div data-id="@item.Id" class="product-card">
                                                 <div class="image">
@@ -263,7 +263,7 @@
                             }
                             else
                             {
-                                <div id="men-carousel-@Model.Tags[i-1].Id" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
+                                <div id="men-carousel-@i" data-id="@Model.Tags[i-1].Id" class="owl-carousel owl-theme d-none">
                                     @foreach (var item in Model.MenProducts)
                                     {
                                         if (item.TagId == Model.Tags[i - 1].Id)
