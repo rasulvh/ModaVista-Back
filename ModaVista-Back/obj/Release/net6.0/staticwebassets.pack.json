@@ -1,0 +1,1849 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ModaVista-Back.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ModaVista-Back.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\user.jpg"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\1fd24403-296a-41fb-b886-0bb1767977f4_blog-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\1fd24403-296a-41fb-b886-0bb1767977f4_blog-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\8a558dee-c591-4c11-904d-b330c3652103_blog-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\8a558dee-c591-4c11-904d-b330c3652103_blog-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-5.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-5.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\blog-6.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-6.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\fe039814-cb92-4f17-90b8-9b5b38d5f681_insta-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\fe039814-cb92-4f17-90b8-9b5b38d5f681_insta-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\recent-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\recent-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\recent-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\recent-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\recent-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\recent-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\blog\\recent-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\recent-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\03f7afc7-4b50-48de-9b15-a4c37c4cb0dd_banner-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\03f7afc7-4b50-48de-9b15-a4c37c4cb0dd_banner-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\32abfd32-6154-422d-9a15-8485b2fbd102_deal-of-week-bg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\32abfd32-6154-422d-9a15-8485b2fbd102_deal-of-week-bg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\banner-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\banner-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\banner-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\banner-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\d52fe071-e4f2-4275-9ae6-2a5bd89d4b44_banner-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\d52fe071-e4f2-4275-9ae6-2a5bd89d4b44_banner-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\d8dbae82-d48e-40ff-9725-62de9b89e078_hero-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\d8dbae82-d48e-40ff-9725-62de9b89e078_hero-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\d956d45e-3ba3-45d1-ae93-d77c844f5d65_insta-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\d956d45e-3ba3-45d1-ae93-d77c844f5d65_insta-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\deal-of-week-bg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\deal-of-week-bg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\header-flag.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\header-flag.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\hero-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\hero-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\hero-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\hero-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-5.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-5.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\insta-6.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\insta-6.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\latest-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\latest-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\latest-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\latest-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\latest-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\latest-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\459d5ad2-3f29-470e-835c-3814b70f38a2_2023-06-04 (3).png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-1.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\logo-1.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-2.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\logo-2.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-3.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\logo-3.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-4.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\logo-4.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\logo-carousel\\logo-5.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\logo-carousel\\logo-5.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\man-large.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\man-large.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\2e5770b7-9a9a-4623-b0d1-88d61f743ab0_man-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\2e5770b7-9a9a-4623-b0d1-88d61f743ab0_man-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\6d7bb9ee-b277-4a00-b9b2-321cd87a9ccd_man-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\6d7bb9ee-b277-4a00-b9b2-321cd87a9ccd_man-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\8c9105e7-2687-4f52-bb8c-7cb2d27feeff_man-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\c31b57f7-73ac-4b99-8609-f92e4d23ea5f_women-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\c31b57f7-73ac-4b99-8609-f92e4d23ea5f_women-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\c343d902-fd40-4a26-880f-ccc2653212bf_women-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\c343d902-fd40-4a26-880f-ccc2653212bf_women-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\man-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\man-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\man-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\man-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\man-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\man-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\man-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\man-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\women-1.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\women-1.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\women-2.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\women-2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\women-3.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\women-3.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\products\\women-4.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\products\\women-4.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\home\\women-large.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\home\\women-large.jpg.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\logo-transparent-nav.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-transparent-nav.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\logo-transparent.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-transparent.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\img\\payment-method.png.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\payment-method.png.webp"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\account.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\blog-detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blog-detail.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blog.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\cart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\cart.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\faq.js",
+      "PackagePath": "staticwebassets\\assets\\js\\faq.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\product-detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\product-detail.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\profile.js",
+      "PackagePath": "staticwebassets\\assets\\js\\profile.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\js\\wishlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wishlist.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\.gitattributes",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\.gitattributes"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\.gitignore",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\.gitignore"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\.travis.yml",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\.travis.yml"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\Gruntfile.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\README.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\README.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\ROADMAP.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\ROADMAP.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\_config.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\_config.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\bower.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\README.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\README.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\dist\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\css\\docs.theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\css\\docs.theme.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\bird_blue_32.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\download.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-drag.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-modern.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-module.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-options.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-responsive.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\feature-zombie.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\owl-logo.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\img\\twitter_25.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\README.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\README.md"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\highlight.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\assets\\vendors\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\animate.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\animate.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\autoheight.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\autoheight.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\autoplay.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\autoplay.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\autowidth.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\autowidth.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\basic.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\basic.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\center.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\center.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\demos.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\demos.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\events.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\events.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\lazyLoad.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\lazyLoad.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\merge.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\merge.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\mousewheel.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\mousewheel.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\responsive.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\responsive.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\rtl.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\rtl.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\stagepadding.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\stagepadding.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\test.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\test.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\urlhashnav.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\urlhashnav.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\demos\\video.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\demos\\video.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\api-classes.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\api-classes.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\api-events.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\api-events.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\api-options.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\api-options.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\dev-buildin-plugins.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\dev-buildin-plugins.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\dev-external.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\dev-external.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\dev-plugin-api.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\dev-plugin-api.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\dev-styles.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\dev-styles.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\started-faq.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\started-faq.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\started-installation.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\started-installation.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\started-welcome.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\started-welcome.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\support-changelog.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\support-changelog.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\support-contact.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\support-contact.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\docs\\support-contributing.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\docs\\support-contributing.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs\\index.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs\\index.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\bird_blue_32.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\bird_blue_32.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\download.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\download.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-drag.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-drag.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-modern.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-modern.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-module.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-module.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-options.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-options.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-responsive.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-responsive.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-zombie.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\feature-zombie.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\owl-logo.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\owl-logo.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\twitter_25.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\img\\twitter_25.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\_settings.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\_settings.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\custom.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\custom.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\demos.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\demos.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\docs.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\docs.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\docs.theme.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\docs.theme.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\scss\\highlight.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\foundation.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\highlight.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\highlight.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\assets\\vendors\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\data\\classes.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\data\\classes.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\data\\events.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\data\\events.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\data\\features.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\data\\features.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\data\\options.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\data\\options.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\helpers\\modulo.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\helpers\\modulo.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\helpers\\test.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\helpers\\test.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\demos.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\docs.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\docs.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\home.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\layouts\\home.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\animate.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\animate.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autoheight.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autoplay.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\autowidth.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\basic.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\basic.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\center.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\center.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\demos.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\demos.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\events.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\events.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\lazyLoad.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\merge.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\merge.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\mousewheel.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\responsive.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\responsive.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\rtl.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\rtl.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\stagepadding.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\test.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\test.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\urlhashnav.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\video.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\demos\\video.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-classes.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-events.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-events.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-options.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\api-options.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-buildin-plugins.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-external.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-plugin-api.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\dev-styles.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-faq.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-installation.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\started-welcome.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-changelog.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-contact.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\docs\\support-contributing.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\index.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\pages\\index.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\footer.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\footer.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\head.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\head.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\header.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\header.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-carousel.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-carousel.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-features.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-features.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-hero.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-hero.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-teaser-text.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\home-teaser-text.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\javascripts.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\javascripts.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\releated-docs.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\releated-docs.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\sidenav-docs.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\sidenav-docs.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\title.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\title.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\vendors.hbs",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\docs_src\\templates\\partials\\vendors.hbs"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\package-lock.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\package.json",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\package.json"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\img\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\img\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\.jscsrc",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\.jscsrc"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\.jshintrc",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\.jshintrc"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.animate.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.animate.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.autoheight.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.autoheight.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.autoplay.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.autoplay.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.autorefresh.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.autorefresh.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.hash.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.hash.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.lazyload.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.lazyload.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.navigation.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.navigation.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.support.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.support.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.support.modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.support.modernizr.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\js\\owl.video.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\js\\owl.video.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_animate.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_animate.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_autoheight.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_autoheight.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_lazyload.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_lazyload.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_theme.default.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_theme.default.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_theme.green.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_theme.green.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_theme.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\_video.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\_video.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.carousel.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.default.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.scss",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\src\\scss\\owl.theme.green.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\test\\index.html",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\test\\index.html"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\test\\unit\\autoplay.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\test\\unit\\autoplay.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\lib\\owlcarousel\\test\\unit\\core.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\owlcarousel\\test\\unit\\core.js"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\account\\account.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\account\\account.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\account\\account.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\account\\account.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\account\\account.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\account\\account.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog-detail\\blog.detail.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog-detail\\blog.detail.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog-detail\\blog.detail.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog-detail\\blog.detail.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog-detail\\blog.detail.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog-detail\\blog.detail.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog\\blog.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog\\blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog\\blog.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\blog\\blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog\\blog.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\cart\\cart.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart\\cart.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\cart\\cart.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart\\cart.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\cart\\cart.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\cart\\cart.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\contact\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact\\contact.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\contact\\contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact\\contact.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\contact\\contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact\\contact.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\faq\\faq.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\faq\\faq.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\faq\\faq.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\faq\\faq.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\faq\\faq.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\faq\\faq.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\home\\home.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\home\\home.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\home\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\home\\home.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\home\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\home\\home.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\product-detail\\product-detail.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\product-detail\\product-detail.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\product-detail\\product-detail.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\product-detail\\product-detail.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\product-detail\\product-detail.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\product-detail\\product-detail.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\profile\\profile.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\profile\\profile.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\profile\\profile.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\profile\\profile.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\profile\\profile.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\profile\\profile.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\shop\\shop.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\shop\\shop.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\shop\\shop.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\shop\\shop.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\shop\\shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\shop\\shop.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\wishlist\\wishlist.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist\\wishlist.css"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\wishlist\\wishlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist\\wishlist.css.map"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\assets\\scss\\wishlist\\wishlist.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist\\wishlist.scss"
+    },
+    {
+      "Id": "D:\\Masadakılar Rasul\\Code Academy\\Final Project - ModaVista\\ModaVista-Back\\ModaVista-Back\\wwwroot\\templates\\account.html",
+      "PackagePath": "staticwebassets\\templates\\account.html"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.ModaVista-Back.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.ModaVista-Back.props",
+      "PackagePath": "build\\ModaVista-Back.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ModaVista-Back.props",
+      "PackagePath": "buildMultiTargeting\\ModaVista-Back.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.ModaVista-Back.props",
+      "PackagePath": "buildTransitive\\ModaVista-Back.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
