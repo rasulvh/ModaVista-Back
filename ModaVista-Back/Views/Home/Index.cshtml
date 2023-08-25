@@ -26,7 +26,7 @@
                                         <span class="animate__animated animate__fadeInUp">@item.SubHeading</span>
                                         <h1 class="animate__animated animate__fadeInUp">@item.Heading</h1>
                                         <p class="animate__animated animate__fadeInUp">@item.Text</p>
-                                        <a href="" class="animate__animated animate__fadeInUp">SHOP NOW</a>
+                                        <a asp-controller="Shop" asp-action="Index" class="animate__animated animate__fadeInUp">SHOP NOW</a>
                                     </div>
                                 </div>
                                 <div class="col-7 position-relative">
@@ -105,7 +105,7 @@
                                                     <div class="bottom">
                                                         <i class="fa-light fa-basket-shopping"></i>
                                                         <div class="view">
-                                                            <a href="">
+                                                            <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">
                                                                 <span>View Item</span>
                                                                 <i class="fa-regular fa-eye"></i>
                                                             </a>
@@ -114,7 +114,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <p class="category-name">@Model.Tags[i-1].Name</p>
-                                                    <a href="">@item.Name</a>
+                                                    <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">@item.Name</a>
                                                     <p class="price">$@item.Price</p>
                                                 </div>
                                             </div>
@@ -137,7 +137,7 @@
                                                     <div class="bottom">
                                                         <i class="fa-light fa-basket-shopping"></i>
                                                         <div class="view">
-                                                            <a href="">
+                                                            <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">
                                                                 <span>View Item</span>
                                                                 <i class="fa-regular fa-eye"></i>
                                                             </a>
@@ -146,7 +146,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <p class="category-name">@Model.Tags[i-1].Name</p>
-                                                    <a href="">@item.Name</a>
+                                                    <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">@item.Name</a>
                                                     <p class="price">$@item.Price</p>
                                                 </div>
                                             </div>
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="button">
-                            <a href="">SHOP NOW</a>
+                            <a asp-controller="Shop" asp-action="Index">SHOP NOW</a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
                                                     <div class="bottom">
                                                         <i class="fa-light fa-basket-shopping"></i>
                                                         <div class="view">
-                                                            <a href="">
+                                                            <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">
                                                                 <span>View Item</span>
                                                                 <i class="fa-regular fa-eye"></i>
                                                             </a>
@@ -253,7 +253,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <p class="category-name">@Model.Tags[i-1].Name</p>
-                                                    <a href="">@item.Name</a>
+                                                    <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">@item.Name</a>
                                                     <p class="price">$@item.Price</p>
                                                 </div>
                                             </div>
@@ -276,7 +276,7 @@
                                                     <div class="bottom">
                                                         <i class="fa-light fa-basket-shopping"></i>
                                                         <div class="view">
-                                                            <a href="">
+                                                            <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">
                                                                 <span>View Item</span>
                                                                 <i class="fa-regular fa-eye"></i>
                                                             </a>
@@ -285,7 +285,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <p class="category-name">@Model.Tags[i-1].Name</p>
-                                                    <a href="">@item.Name</a>
+                                                    <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@item.Id">@item.Name</a>
                                                     <p class="price">$@item.Price</p>
                                                 </div>
                                             </div>
@@ -375,8 +375,8 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-card">
                                 <div class="image">
-                                    <a href="">
-                                        <img src="~/assets/img/blog/@item.Image" alt="">
+                                    <a asp-controller="Blog" asp-action="Detail" asp-route-id="@item.Id">
+                                        <img style="height:284px" src="~/assets/img/blog/@item.Image" alt="">
                                     </a>
                                 </div>
                                 <div class="infos">
@@ -387,7 +387,7 @@
                                         </div>
                                     </div>
                                     <div class="down">
-                                        <a href="">@item.Heading</a>
+                                        <a asp-controller="Blog" asp-action="Detail" asp-route-id="@item.Id">@item.Heading</a>
                                         <p>@item.Text</p>
                                     </div>
                                 </div>

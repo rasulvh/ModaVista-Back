@@ -1,0 +1,55 @@
+﻿@model SingleProductDetailVM
+@{
+    ViewData["Title"] = "ProductDetail";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/product-detail/product-detail.css">
+}
+@section Scripts{
+    <script src="~/assets/js/product-detail.js"></script>
+}
+
+
+<main>
+
+    <section id="mini-nav">
+        <div class="container">
+            <div class="contents" style="width: 220px;">
+                <a asp-controller="Home" asp-action="Index">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    Home
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <a asp-action="Index">
+                    Shop
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <span>Product Detail</span>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="product-detail">
+        <div class="product-container">
+            <div class="product-image">
+                <img src="~/assets/img/home/products/@Model.Image" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <div class="product-name">@Model.Name</div>
+                <div class="product-category">@Model.ProductCategory</div>
+                <div class="product-price">$@Model.Price</div>
+                <div class="product-description">@Model.Description</div>
+                <div class="product-brand">Brand: @Model.Brand</div>
+                <div class="product-tags">
+                    <span class="product-tag">@Model.Tag</span>
+                </div>
+            </div>
+        </div>
+        <div class="back-button">
+            <a asp-action="Index">Back to Shop</a>
+        </div>
+    </section>
+
+</main>

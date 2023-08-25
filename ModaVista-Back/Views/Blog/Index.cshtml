@@ -34,19 +34,20 @@
                     <div class="left">
                         <div class="search">
                             <h4>Search</h4>
-                            <form>
-                                <input type="text" placeholder="Search...">
+                            @using (Html.BeginForm("Index", "Blog", FormMethod.Post))
+                            {
+                                <input type="text" name="searchText" placeholder="Search...">
                                 <button>
                                     <i class="fa-regular fa-magnifying-glass"></i>
                                 </button>
-                            </form>
+                            }
                         </div>
                         <div class="categories">
                             <h4>Categories</h4>
                             <ul>
                                 @foreach (var item in Model.BlogCategories)
                                 {
-                                    <li><a href="">@item.Name</a></li>
+                                    <li><a asp-action="Index" asp-route-blogCategoryId="@item.Id">@item.Name</a></li>
                                 }
                             </ul>
                         </div>
@@ -58,12 +59,12 @@
                                 {
                                     <div class="post">
                                         <div class="left-side">
-                                            <a href="">
+                                            <a asp-action="Detail" asp-route-id="@item.Id">
                                                 <img style="width:81px;height:81px" src="~/assets/img/blog/@item.Image" alt="recent-1">
                                             </a>
                                         </div>
                                         <div class="right-side">
-                                            <a href="">@item.Heading</a>
+                                            <a asp-action="Detail" asp-route-id="@item.Id">@item.Heading</a>
                                             <div class="down">
                                                 <span class="category">@item.BlogCategory.Name</span>
                                                 <span class="date">- @item.CreateDate.ToString("MMMM dd, yyyy")</span>
@@ -77,24 +78,85 @@
                 </div>
                 <div class="col-lg-9 order-1 order-lg-2">
                     <div class="row">
-                        @foreach (var item in Model.Blogs)
+                        @if(Model.SearchedBlogs == null && Model.CategorizedBlogs == null)
                         {
-                            <div class="col-lg-6 col-sm-6 mb-5">
-                                <div class="blog">
-                                    <div class="picture">
-                                        <a href="">
-                                            <img src="~/assets/img/blog/@item.Image" alt="blog-1">
-                                        </a>
-                                    </div>
-                                    <div class="text mt-3">
-                                        <a href="">@item.Heading</a>
-                                        <div class="down">
-                                            <span class="category">@item.BlogCategory.Name</span>
-                                            <span class="date">- @item.CreateDate.ToString("MMMM dd, yyyy")</span>
+                            @foreach (var item in Model.Blogs)
+                            {
+                                <div class="col-lg-6 col-sm-6 mb-5">
+                                    <div class="blog">
+                                        <div class="picture">
+                                            <a asp-action="Detail" asp-route-id="@item.Id">
+                                                <img style="height:321px" src="~/assets/img/blog/@item.Image" alt="blog-1">
+                                            </a>
+                                        </div>
+                                        <div class="text mt-3">
+                                            <a asp-action="Detail" asp-route-id="@item.Id">@item.Heading</a>
+                                            <div class="down">
+                                                <span class="category">@item.BlogCategory.Name</span>
+                                                <span class="date">- @item.CreateDate.ToString("MMMM dd, yyyy")</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            }
+                        }
+                        else
+                        {
+                            if(Model.CategorizedBlogs == null)
+                            {
+                                if(Model.SearchedBlogs.Count == 0)
+                                {
+                                    <div role="alert" class="alert alert-danger">No Blogs Found</div>
+                                }
+                                else
+                                {
+                                    foreach (var item in Model.SearchedBlogs)
+                                    {
+                                        <div class="col-lg-6 col-sm-6 mb-5">
+                                            <div class="blog">
+                                                <div class="picture">
+                                                    <a asp-action="Detail" asp-route-id="@item.Id">
+                                                        <img style="height:321px" src="~/assets/img/blog/@item.Image" alt="blog-1">
+                                                    </a>
+                                                </div>
+                                                <div class="text mt-3">
+                                                    <a asp-action="Detail" asp-route-id="@item.Id">@item.Heading</a>
+                                                    <div class="down">
+                                                        <span class="category">@item.BlogCategory.Name</span>
+                                                        <span class="date">- @item.CreateDate.ToString("MMMM dd, yyyy")</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                if (Model.CategorizedBlogs.Count == 0)
+                                {
+                                    <div role="alert" class="alert alert-danger">No Blogs Found</div>
+                                }
+                                foreach (var item in Model.CategorizedBlogs)
+                                {
+                                    <div class="col-lg-6 col-sm-6 mb-5">
+                                        <div class="blog">
+                                            <div class="picture">
+                                                <a asp-action="Detail" asp-route-id="@item.Id">
+                                                    <img style="height:321px" src="~/assets/img/blog/@item.Image" alt="blog-1">
+                                                </a>
+                                            </div>
+                                            <div class="text mt-3">
+                                                <a asp-action="Detail" asp-route-id="@item.Id">@item.Heading</a>
+                                                <div class="down">
+                                                    <span class="category">@item.BlogCategory.Name</span>
+                                                    <span class="date">- @item.CreateDate.ToString("MMMM dd, yyyy")</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
                         }
                     </div>
                 </div>

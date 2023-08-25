@@ -100,5 +100,27 @@ namespace ModaVista_Back.Controllers
 
             return (int)pageCount;
         }
+
+        public async Task<IActionResult> ProductDetail(int? id)
+        {
+            if (id is null) return BadRequest();
+
+            var product = await _productService.GetByIdWithIncludesAsync((int)id);
+
+            if (product is null) return NotFound();
+
+            SingleProductDetailVM model = new()
+            {
+                Brand = product.Brand.Name,
+                Name = product.Name,
+                Description = product.Description,
+                Image = product.Image,
+                Price = product.Price,
+                ProductCategory = product.ProductCategory.Name,
+                Tag = product.Tag.Name
+            };
+
+            return View(model);
+        }
     }
 }

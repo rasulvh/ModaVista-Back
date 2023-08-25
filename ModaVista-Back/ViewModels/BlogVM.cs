@@ -7,5 +7,7 @@ namespace ModaVista_Back.ViewModels
         public List<Blog> Blogs { get; set; }
         public List<Blog> MiniBlogs { get; set; }
         public List<BlogCategory> BlogCategories { get; set; }
+        public List<Blog>? SearchedBlogs { get; set; }
+        public List<Blog>? CategorizedBlogs { get; set; }
     }
 }

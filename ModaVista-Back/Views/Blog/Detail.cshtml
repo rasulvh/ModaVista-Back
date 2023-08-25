@@ -1,0 +1,79 @@
+﻿@model SingleBlogDetailVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+@section Links{
+    <link rel="stylesheet" href="~/assets/scss/blog-detail/blog.detail.css">
+}
+@section Scripts{
+    <script src="~/assets/js/blog-detail.js"></script>
+}
+
+<main>
+
+    <section id="mini-nav">
+        <div class="container">
+            <div class="contents" style="width: 220px;">
+                <a asp-controller="Home" asp-action="Index">
+                    <i class="fa-sharp fa-solid fa-house-chimney"></i>
+                    Home
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <a asp-action="Index">
+                    Blog
+                </a>
+                <i class="fa-light fa-chevron-right"></i>
+                <span>Blog Detail</span>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="blog-detail">
+        <div class="container">
+            <div class="up">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="img">
+                            <img src="~/assets/img/blog/@Model.Image" alt="blog-img">
+                        </div>
+                        <div class="infos">
+                            <span>Posted by: Admin</span>
+                            <span>|</span>
+                            <span>Date: @Model.CreateDate.ToString("MMMM dd, yyyy")</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="blog-header">
+                            <h1>@Model.Heading</h1>
+                        </div>
+                        <div class="text">
+                            <p>@Model.Text</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+            <div class="back">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="button-box d-flex justify-content-center align-items-center">
+                            <a class="back-button" asp-action="Index">Back</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
